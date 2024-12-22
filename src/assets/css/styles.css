@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+section {
+  padding: 2rem;
+}
+
+.projects h1{
+    text-align: center;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 360px; /* Set minimum height to twice the current height */
+    display: flex;
+  }
+
+.project-card .project-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card .project-info {
+  margin-right: 200px;
+  margin-left: 500px;
+  width: 800px;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-card .video-container {
+  flex-shrink: 0;
+  margin-right: 500px;
+  width: 450px;
+  height: 70%;
+}
+
+.project-card iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.project-card .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 4; /* Standard property */
+  box-orient: vertical; /* Standard property */
+}
+
+.project-card .links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .project-card .icon-link {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .project-card .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .project-card .icon-link:hover .icon {
+    filter: brightness(0.8);
+  }
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav a {
+    margin: 0.5rem 0;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card .project-content {
+    flex-direction: column;
+  }
+
+  .project-card .video-container {
+    margin-top: 1rem;
+    width: 100%; /* Make video container full width on smaller screens */
+    height: auto; /* Adjust height for responsive design */
+  }
+
+  .project-card iframe {
+    height: auto; /* Adjust height for responsive design */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    width: 100%;
+  }
+}
