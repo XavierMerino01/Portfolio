@@ -61,6 +61,7 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-height: 360px; /* Set minimum height to twice the current height */
     display: flex;
+    justify-content: center;
   }
 
 .project-card .project-content {
