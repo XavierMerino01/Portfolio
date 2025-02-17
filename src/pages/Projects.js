@@ -26,7 +26,7 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <h1>Projects</h1>
+            <h1>PORTFOLIO</h1>
             <div className="project-list">
                 {projects.map((project, index) => (
                     <ProjectCard 

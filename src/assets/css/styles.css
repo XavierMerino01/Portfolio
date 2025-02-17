@@ -4,6 +4,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #f4f4f4;
+  padding-top: 4rem; /* Adjust padding to match header height */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 header {
@@ -11,11 +13,16 @@ header {
   color: white;
   padding: 1rem;
   text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure header stays on top */
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0; /* Ensure no extra margin */
 }
 
 nav ul li {
@@ -33,13 +40,13 @@ footer {
   color: white;
   text-align: center;
   padding: 1rem;
-  position: fixed;
   width: 100%;
   bottom: 0;
 }
 
-section {
+.home, .projects, .about {
   padding: 2rem;
+  margin-top: 4rem; /* Adjust margin to match header height */
 }
 
 .projects h1{
@@ -50,6 +57,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  align-items: center;
 }
 
 .project-card {
@@ -57,32 +65,34 @@ section {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1rem;
-    width: 100%;
+    width: 90%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-height: 360px; /* Set minimum height to twice the current height */
     display: flex;
     justify-content: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
   }
 
-.project-card .project-content {
+.project-content {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
-.project-card .project-info {
-  margin-right: 200px;
-  margin-left: 500px;
-  width: 800px;
+.project-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
 }
 
 .project-card h3 {
   margin-top: 0;
 }
 
-.project-card .video-container {
+.video-container {
   flex-shrink: 0;
-  margin-right: 500px;
   width: 450px;
   height: 70%;
 }
