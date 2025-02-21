@@ -5,6 +5,7 @@ function Header() {
   return (
     <header>
       <h1>Xavier Merino Seuma</h1>
+      <h3>Gameplay Programmer</h3>
       <nav>
         <ul>
           <li><Link to="/">ABOUT</Link></li>

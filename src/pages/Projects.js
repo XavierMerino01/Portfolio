@@ -9,7 +9,7 @@ const Projects = () => {
     const projects = [
         {
             title: 'Ludovico Grim',
-            briefDescription: 'Action based 2D auto-runner where you play as Ludovico, a Grim trainee looking to become an efficient soul reaper.',
+            briefDescription: 'Action based 2D auto-runner where you play as Ludovico, a Grim trainee looking to become the best soul reaper.',
             bulletPoints: [
                 'Programmer for the colaborative project at Two Weeks At Home.',
                 'Prototyped and developed gameplay mechanics.',
@@ -78,7 +78,6 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <h1>PORTFOLIO</h1>
             <div className="project-list">
                 {projects.map((project, index) => (
                     <ProjectCard 
