@@ -7,8 +7,7 @@ function Header() {
       <h1>Xavier Merino Seuma</h1>
       <nav>
         <ul>
-          <li><Link to="/">HOME</Link></li>
-          <li><Link to="/about">ABOUT</Link></li>
+          <li><Link to="/">ABOUT</Link></li>
           <li><Link to="/projects">PORTFOLIO</Link></li>
         </ul>
       </nav>

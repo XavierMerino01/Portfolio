@@ -3,7 +3,11 @@ import React from 'react';
 const About = () => {
     return (
         <div className="about">
-            <p>I’m a tech and video game enthusiast with a solid foundation in programming and game design. This, along with my understanding of game engines and software, allows me to prototype ideas and work from a multidisciplinary standpoint.</p>
+            <h1>Welcome to My Portfolio</h1>
+            <p>
+                I am a passionate game programmer with experience in developing engaging and interactive games.
+                Explore my projects and learn more about my skills and experience.
+            </p>
             <h2>Skills</h2>
             <ul>
                 <li>Proficient in C++ and C#</li>

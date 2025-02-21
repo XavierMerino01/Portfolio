@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -44,7 +44,7 @@ footer {
   bottom: 0;
 }
 
-.home, .projects, .about {
+.projects, .about {
   padding: 2rem;
   margin-top: 4rem; /* Adjust margin to match header height */
 }
@@ -65,7 +65,7 @@ footer {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1rem;
-    width: 90%;
+    width: 80%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     min-height: 360px; /* Set minimum height to twice the current height */
     display: flex;
@@ -78,7 +78,8 @@ footer {
   width: 100%;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  gap: 10%;
+  margin: 0 20px;
 }
 
 .project-info {
@@ -87,9 +88,6 @@ footer {
   max-width: 600px;
 }
 
-.project-card h3 {
-  margin-top: 0;
-}
 
 .video-container {
   flex-shrink: 0;
@@ -119,19 +117,62 @@ footer {
     margin-top: 0.5rem;
   }
   
-  .project-card .icon-link {
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  .project-card .icon {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .project-card .icon-link:hover .icon {
-    filter: brightness(0.8);
-  }
+
+.project-card .brief-description {
+  margin-bottom: 1rem;
+}
+
+.project-card .bullet-points {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.project-card .bullet-points li {
+  margin-bottom: 0.5rem;
+}
+
+.project-card .logos {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.project-card .logo {
+  width: 34px;
+  height: 34px;
+}
+
+.project-card .title-and-logos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.project-card .links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.project-card .icon-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.project-card .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.project-card .icon-link:hover .icon {
+  filter: opacity(0.6);
+}
+
+.project-card h3,
+.project-card .brief-description,
+.project-card .bullet-points li {
+  line-height: 1.4; /* Adjust the line height as needed */
+}
 
 @media (max-width: 768px) {
   nav {
