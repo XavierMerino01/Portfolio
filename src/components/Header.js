@@ -1,7 +1,7 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import LanguageSwitch from './LanguageSwitcher';
+import LanguageSwitcher from './LanguageSwitcher';
 import unitedKingdom from '../assets/icons/united-kingdom.png';
 import spain from '../assets/icons/spain.png';
 import catalonia from '../assets/icons/catalonia.png';
@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header>
-       <div className="header-container"> {/* Added container */}
+      <div className="header-container"> {/* Added container */}
         <div className="header-info">
           <h1>Xavier Merino Seuma</h1>
           <h3>Gameplay Programmer</h3>
@@ -26,16 +26,10 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-        <LanguageSwitch />
+        <LanguageSwitcher />
       </div> {/* Close container */}
     </header>
   );
 };
 
-const WrappedHeader = () => (
-  <Suspense fallback="Loading...">
-    <Header />
-  </Suspense>
-);
-
-export default WrappedHeader;
+export default Header; // Export Header directly

@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import About from './pages/About';
+import WrappedAbout from './pages/About';
 import Projects from './pages/Projects';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <div>
           <Header />
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/" element={<WrappedAbout />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
           <Footer />
