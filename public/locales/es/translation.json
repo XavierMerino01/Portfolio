@@ -1,0 +1,79 @@
+{
+  "about.heroText": "Programador de videojuegos con una base sólida en programación y diseño de juegos. Esto, junto a mi comprensión de los motores gráficos y el software, me permite prototipar ideas y trabajar desde un punto de vista multidisciplinario.",
+  "about.skillsTitle": "Habilidades",
+  "about.softwareTitle": "Software",
+  "about.experienceTitle": "Experiencia",
+  "about.educationTitle": "Educación",
+  "about.otherTitle": "Otros",
+  "about.contactInfo": "merinoxevi@gmail.com",
+  "about.skillsList": [
+    "Competente en Programación Orientada a Objetos en C# y C++",
+    "Amplia experiencia con motores gráficos como Unity y Unreal Engine (C++ y Blueprints)",
+    "Comprensión de mecánicas de juego, físicas y programación de IA",
+    "Habilidades básicas de desarrollo web (HTML, CSS, JavaScript, React)",
+    "Experiencia con herramientas de modelado y texturizado 3D",
+    "Habilidad en el uso de sistemas de control de versiones como Git",
+    "Experiencia trabajando en entornos ágiles utilizando metodologías Scrum"
+  ],
+  "about.experience.unityProgrammer": "Programador de Unity",
+  "about.experience.unrealConsultant": "Prácticas como consultor de Unreal Engine",
+  "about.experience.twoWeeksAtHome": "Two Weeks At Home",
+  "about.experience.toyotaME": "Toyota ME - Bruselas",
+  "about.experience.twoWeeksAtHome.description": [
+    "Programador principal de los proyectos del estudio, responsable de la creación de prototipos y de las mecánicas de juego.",
+    "Responsable de la integración de sonido y arte en el juego.",
+    "Único programador de \"Figure It Out\", el primer juego publicado del estudio en Steam."
+  ],
+  "about.experience.toyotaME.description": [
+    "Realización de pruebas y proyectos en Unreal Engine para el examen visual de diferentes versiones de diseño.",
+    "Exploracion y propuesta de posibilidades para la gamificación de vehículos.",
+    "Estudio de las posibilidades de evaluación de vehículos utilizando Unreal Engine para el diseño de carrocería."
+  ],
+  "about.education.emav": "EMAV Barcelona",
+  "about.education.pedralbes": "Institut de Pedralbes",
+  "about.education.emav.description": "Técnico Superior en Animación 3D y Desarrollo de Videojuegos",
+  "about.education.pedralbes.description": "Curso de especialización en Desarrollo de videojuegos y Realidad Virtual",
+  "about.other.udemy": "Udemy",
+  "about.other.odin": "The Odin Project",
+  "about.other.udemy.description": "Desarrollador de Unreal Engine 5 en C++",
+  "about.other.odin.description": "Curso de desarrollo web Fullstack",
+  "about.education.emav.name": "EMAV Barcelona",
+  "about.education.pedralbes.name": "Institut de Pedralbes",
+  "about.other.udemy.name": "Udemy",
+  "about.other.odin.name": "The Odin Project",
+  "about.contact":"Contacto",
+  "projects.ludovicoGrim.briefDescription": "Auto-runner 2D de acción en el que juegas como Ludovico, un aprendiz de parca que busca convertirse en el mejor segador de almas.",
+  "projects.ludovicoGrim.bulletPoints": [
+    "Programador del proyecto colaborativo en Two Weeks At Home.",
+    "Prototipado y desarrollo de mecánicas de juego.",
+    "Integración de recursos de sonido y arte.",
+    "Realización de pruebas y recopilación errores."
+  ],
+  "projects.figureItOut.briefDescription": "Juego de puzles minimalista que deja todo a las habilidades deductivas de los jugadores, donde la observación es clave para descubrir la solución de cada uno de los 56 niveles.",
+  "projects.figureItOut.bulletPoints": [
+    "Programación de herramientas para la creación de niveles.",
+    "Arquitectura de juego y base de código sólidas.",
+    "Preparación del lanzamiento en Steam (Steamworks SDK, logros, etc.)",
+    "6 meses de desarrollo."
+  ],
+  "projects.catenae.briefDescription": "Participación para el Level Up Game Jam 2024 de una semana. El jugador debe presionar los botones del teclado en el orden correcto para completar las pantallas y avanzar por los niveles.",
+  "projects.catenae.bulletPoints": [
+    "Prototipado y desarrollo rápido de mecánicas de juego.",
+    "Diseño de patrones de botones.",
+    "Build jugable en Itch.io"
+  ],
+  "projects.mixTriviaGame.briefDescription": "Proyecto personal, con el objetivo de practicar mis habilidades de diseño y programación. Creado en el transcurso de dos semanas.",
+  "projects.mixTriviaGame.bulletPoints": [
+    "Creación de una base de código cohesiva y eficiente para respaldar la implementación de varias características del juego.",
+    "Diseño de la jugabilidad y la experiencia del usuario.",
+    "Implementación de recursos de terceros y efectos de sonido."
+  ],
+  "projects.lumina.briefDescription": "Videojuego corto en 3D para PC. Desarrollado utilitzando Unreal Engine 4 como proyecto final del CFGS de desarrollo de videojuegos.",
+  "projects.lumina.bulletPoints": [
+    "Desarrollo del juego utilizando UE Blueprints.",
+    "Diseño de puzles y mecánicas.",
+    "Inclusión de elementos narrativos como cinemáticas."
+  ],
+  "header.about": "SOBRE MI",
+  "header.projects": "PROYECTOS"
+}

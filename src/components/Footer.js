@@ -1,11 +1,14 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import githubIcon from '../assets/icons/github.png'; // Adjust the path as necessary
 import linkedinIcon from '../assets/icons/linkedin.png'; // Adjust the path as necessary
 
 const Footer = () => {
+    const { t } = useTranslation();
+
     return (
         <footer>
-            <h3>Contact</h3>
+            <h3>{t('about.contact')}</h3>
             <p><span>EMAIL     -</span>  merinoxevi@gmail.com</p>
             <div className="footer-icons">
                 <a href="https://github.com/XavierMerino01" target="_blank" rel="noopener noreferrer">

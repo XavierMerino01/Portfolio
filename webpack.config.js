@@ -1,13 +1,14 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin'); // Add this line
 
 module.exports = {
   entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/'
+    publicPath: '/',
   },
   devServer: {
     static: {
@@ -49,6 +50,15 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html',
+    }),
+    // Add the CopyPlugin configuration here
+    new CopyPlugin({
+      patterns: [
+        {
+          from: 'public/locales', // Source folder
+          to: 'locales', // Destination folder in the output directory
+        },
+      ],
     }),
   ],
 };

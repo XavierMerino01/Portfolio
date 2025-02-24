@@ -16,26 +16,37 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; 
+  z-index: 1000;
   font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-header h1{
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-info h1{
     margin: 0;
 }
 
-header h3{
+.header-info h3{
     margin: 1rem 0 2rem;
     font-weight: 300;
   }
 
-header nav{
+.header-info nav{
   margin-bottom: 0.5rem;
 }
 
+.header-info{
+  margin-right: 0rem;
+  text-align: center; /* Center the header info */
+  flex-grow: 1; /* Allow it to take up remaining space */
+  max-width: 90%; /* Limit the width of the header info */
+}
 
 nav ul {
   list-style: none;
@@ -381,7 +392,41 @@ footer p {
   line-height: 1.4; /* Adjust the line height as needed */
 }
 
+.language-switcher {
+  display: flex; /* Arrange buttons horizontally */
+  flex-direction: column;
+  gap: 15px; /* Add some space between buttons */
+}
 
+.language-switcher button {
+  width: 25px;
+  height: 15px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent; /* Added to ensure transparency */
+}
+
+.language-switcher button:hover {
+  opacity: 0.8; /* Add a slight fade on hover */
+}
+
+.uk {
+  background-size: cover;
+  background-image: url('../icons/united-kingdom.png'); /* Replace with the actual path to your UK flag image */
+}
+
+.es {
+  background-size: cover;
+  background-image: url('../icons/spain.png'); /* Replace with the actual path to your Spain flag image */
+}
+
+.cat {
+  background-size: cover;
+  background-image: url('../icons/catalonia.png'); /* Replace with the actual path to your Catalonia flag image */
+}
 
 @media (max-width: 768px) {
   nav {

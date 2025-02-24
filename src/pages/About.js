@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import ProfilePic from '../assets/icons/ProfileWA.jpg'; 
 import unityLogo from '../assets/icons/unity.png'; 
 import unrealLogo from '../assets/icons/unreal.png'; 
@@ -12,16 +13,17 @@ import jsLogo from '../assets/icons/javascript.png';
 import linkedinLogo from '../assets/icons/linkedin.png'; 
 
 const About = () => {
+    const { t } = useTranslation();
     return (
         <div className="about">
             <div className="hero">
                 <div className="hero-text">
                     <p>
-                        Gameplay programmer with a solid foundation in programming and game design. This, along with my understanding of game engines and software, allows me to prototype ideas and work from a multidisciplinary standpoint.
+                        {t('about.heroText')}
                     </p>
                     <div className="contact-info">
-                        <p>merinoxevi@gmail.com</p>
-                        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+                        <p>{t('about.contactInfo')}</p>
+                        <a href="https://www.linkedin.com/in/xaviermerino/" target="_blank" rel="noopener noreferrer">
                             <img src={linkedinLogo} alt="LinkedIn" className="linkedin-icon" title="LinkedIn" />
                         </a>
                     </div>
@@ -30,21 +32,17 @@ const About = () => {
             </div>
             <div className="skill-nav">
                 <div className="skills">
-                <h2>Skills</h2>
-                <ul>
-                    <li>Proficient in Object-Oriented Programming with <span>C#</span> and <span>C++</span></li>
-                    <li>Extensive experience with game engines such as <span>Unity</span> and <span>Unreal Engine</span> (C++ and Blueprints)</li>
-                    <li>Strong understanding of game mechanics, physics, and AI programming</li>
-                    <li>Basic web development skills (HTML, CSS, JavaScript)</li>
-                    <li>Experience with 3D modeling and texturing tools</li>
-                    <li>Skilled in using version control systems like Git</li>
-                    <li>Experience working in agile environments using <span>Scrum</span> methodologies</li>
-                </ul>
+                    <h2>{t('about.skillsTitle')}</h2>
+                    <ul>
+                        {t('about.skillsList', { returnObjects: true }).map((skill, index) => (
+                            <li key={index}>{skill}</li>
+                        ))}
+                    </ul>
                 </div>
                 <div className="software">
-                    <h2>Software</h2>
+                    <h2>{t('about.softwareTitle')}</h2>
                     <div className="software-icons">
-                    <img src={unityLogo} alt="Unity" className="software-icon" title="Unity" />
+                        <img src={unityLogo} alt="Unity" className="software-icon" title="Unity" />
                         <img src={unrealLogo} alt="Unreal Engine" className="software-icon" title="Unreal Engine" />
                         <img src={csharpLogo} alt="C#" className="software-icon" title="C#" />
                         <img src={cppLogo} alt="C++" className="software-icon" title="C++" />
@@ -56,37 +54,37 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div className="experience">
-                <h2>Experience</h2>
+                <h2>{t('about.experienceTitle')}</h2>
                 <div className="experience-list">
                     <div className="role">
-                        <h3>Unity Programmer</h3>
-                        <h3>Unreal Engine Consultant Intern</h3>
+                        <h3>{t('about.experience.unityProgrammer')}</h3>
+                        <h3>{t('about.experience.unrealConsultant')}</h3>
                     </div>
-                    <div className = "company">
-                        <h3>Two Weeks At Home</h3>
+                    <div className="company">
+                        <h3>{t('about.experience.twoWeeksAtHome')}</h3>
                         <ul>
-                            <li>Main programmer for the studio projects, responsible for prototyping game mechanics and implementing all gameplay programming.</li>
-                            <li>Responsible of sound and art integration into the gameplay.</li>
-                            <li>Sole game programmer for "Figure It Out", the studio's first published game on Steam.</li>
+                            {t('about.experience.twoWeeksAtHome.description', { returnObjects: true }).map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
                         </ul>
-                        <h3>Toyota ME - Brussels</h3>
+                        <h3>{t('about.experience.toyotaME')}</h3>
                         <ul>
-                            <li>Conducted tests and developed VR blueprint based projects for visual examination of different design versions.</li>
-                            <li>Explored and demonstrated possibilities for vehicle gamification using Unreal Engine.</li>
-                            <li>Examined Unreal Engine vehicle evaluation possibilities for Body Design.</li>
+                            {t('about.experience.toyotaME.description', { returnObjects: true }).map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
                         </ul>
                     </div>
                 </div>
             </div>
             <div className="experience">
-                <h2>Education</h2>
-                <p><span>EMAV Barcelona </span>| Higher Technician in 3D Animation and Video Game Development </p>
-                <p><span>Institut de Pedralbes </span>| Game Development and VR specialization course </p>
-                <h2>Other</h2>
-                <p><span>Udemy </span>| Unreal Engine 5 C++ Developer</p>
-                <p><span>The Odin Project </span>| Fullstack web development course </p>
+                <h2>{t('about.educationTitle')}</h2>
+                <p><span>{t('about.education.emav.name')} </span>| {t('about.education.emav.description')} </p>
+                <p><span>{t('about.education.pedralbes.name')} </span>| {t('about.education.pedralbes.description')} </p>
+                <h2>{t('about.otherTitle')}</h2>
+                <p><span>{t('about.other.udemy.name')} </span>| {t('about.other.udemy.description')}</p>
+                <p><span>{t('about.other.odin.name')} </span>| {t('about.other.odin.description')} </p>
             </div>
         </div>
     );
