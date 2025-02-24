@@ -1,0 +1,79 @@
+{
+  "about.heroText": "Gameplay programmer with a solid foundation in programming and game design. This, along with my understanding of game engines and software, allows me to prototype ideas and work from a multidisciplinary standpoint.",
+  "about.skillsTitle": "Skills",
+  "about.softwareTitle": "Software",
+  "about.experienceTitle": "Experience",
+  "about.educationTitle": "Education",
+  "about.otherTitle": "Other",
+  "about.contactInfo": "merinoxevi@gmail.com",
+  "about.skillsList": [
+    "Proficient in Object-Oriented Programming with C# and C++",
+    "Extensive experience with game engines such as Unity and Unreal Engine (C++ and Blueprints)",
+    "Strong understanding of game mechanics, physics, and AI programming",
+    "Basic web development skills (HTML, CSS, JavaScript)",
+    "Experience with 3D modeling and texturing tools",
+    "Skilled in using version control systems like Git",
+    "Experience working in agile environments using Scrum methodologies"
+  ],
+  "about.experience.unityProgrammer": "Unity Programmer",
+  "about.experience.unrealConsultant": "Unreal Engine Consultant Intern",
+  "about.experience.twoWeeksAtHome": "Two Weeks At Home",
+  "about.experience.toyotaME": "Toyota ME - Brussels",
+  "about.experience.twoWeeksAtHome.description": [
+    "Main programmer for the studio projects, responsible for prototyping game mechanics and implementing all gameplay programming.",
+    "Responsible of sound and art integration into the gameplay.",
+    "Sole game programmer for \"Figure It Out\", the studio's first published game on Steam."
+  ],
+  "about.experience.toyotaME.description": [
+    "Conducted tests and developed VR blueprint based projects for visual examination of different design versions.",
+    "Explored and demonstrated possibilities for vehicle gamification.",
+    "Examined Unreal Engine vehicle evaluation possibilities for Body Design."
+  ],
+  "about.education.emav": "EMAV Barcelona",
+  "about.education.pedralbes": "Institut de Pedralbes",
+  "about.education.emav.description": "Higher Technician in 3D Animation and Video Game Development",
+  "about.education.pedralbes.description": "Game Development and VR specialization course",
+  "about.other.udemy": "Udemy",
+  "about.other.odin": "The Odin Project",
+  "about.other.udemy.description": "Unreal Engine 5 C++ Developer",
+  "about.other.odin.description": "Fullstack web development course",
+  "about.education.emav.name": "EMAV Barcelona",
+  "about.education.pedralbes.name": "Institut de Pedralbes",
+  "about.other.udemy.name": "Udemy",
+  "about.other.odin.name": "The Odin Project",
+  "about.contact":"Contact",
+  "projects.ludovicoGrim.briefDescription": "Action based 2D auto-runner where you play as Ludovico, a Grim trainee looking to become the best soul reaper.",
+  "projects.ludovicoGrim.bulletPoints": [
+    "Programmer for the colaborative project at Two Weeks At Home.",
+    "Prototyped and developed gameplay mechanics.",
+    "Integrated sound and art assets.",
+    "Conducted playtesting and gathered feedback."
+  ],
+  "projects.figureItOut.briefDescription": "Minimalist puzzle game that puts everything on the players deductive skills, where observation is key to uncover each of the 56 levels solution.",
+  "projects.figureItOut.bulletPoints": [
+    "Tool programming for level creation.",
+    "Solid game architecture and codebase.",
+    "Steam release preparation (Steamworks SDK, achievements, etc.)",
+    "6 months of development."
+  ],
+  "projects.catenae.briefDescription": "Entry for the one week Level Up Game Jame 2024. The player must press keyboard buttons in the correct order to complete screens and progress through levels.",
+  "projects.catenae.bulletPoints": [
+    "Quickly prototyped and developed gameplay mechanics.",
+    "Designed challenging button patterns.",
+    "Itch.io playable site"
+  ],
+  "projects.mixTriviaGame.briefDescription": "Personal project, with the objective to practice my game development skills. Created over the course of two weeks.",
+  "projects.mixTriviaGame.bulletPoints": [
+    "Created a cohesive and efficient codebase to support the implementation of various gameplay features.",
+    "Designed gameplay and user experience.",
+    "Implemented third party assets and sound effects."
+  ],
+  "projects.lumina.briefDescription": "Short 3D puzzle videogame for PC, developed in Unreal Engine 4 as a game development course project.",
+  "projects.lumina.bulletPoints": [
+    "Developed game features using UE Blueprints.",
+    "Designed game puzzles and mechanics.",
+    "Inclusion of narrative elements such as cinematics."
+  ],
+  "header.about": "ABOUT",
+  "header.projects": "PORTFOLIO"
+}
