@@ -74,6 +74,10 @@ const About = () => {
             <div className="experience">
                 <h2>Education</h2>
                 <p><span>EMAV Barcelona </span>| Higher Technician in 3D Animation and Video Game Development </p>
+                <p><span>Institut de Pedralbes </span>| Game Development and VR specialization course </p>
+                <h2>Other</h2>
+                <p><span>Udemy </span>| Unreal Engine 5 C++ Developer</p>
+                <p><span>The Odin Project </span>| Fullstack web development course </p>
             </div>
         </div>
     );
