@@ -111,14 +111,14 @@ footer p {
   gap: 4rem;
 }
 
-.about .hero p
+.hero-text p
 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 1.4rem;
-    width: 50%;
+    width: 100%;
 }
-.about .hero img{
+.profile-pic{
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
@@ -130,9 +130,44 @@ footer p {
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 2rem;
+  gap: 3rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid #333; /* Add a line below the hero section */
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 50%;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.contact-info p {
+  margin: 0;
+  font-size: 1.1rem;
+  width: auto;
+  font-weight: 600;
+}
+
+.linkedin-icon {
+  width: 2.5rem;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+
+.linkedin-icon:hover {
+  opacity: 0.5;
 }
 
 .skill-nav {

@@ -45,7 +45,7 @@ const Projects = () => {
             ],
             engineLogo: unityLogo,
             languageLogo: csharpLogo,
-            video: 'https://www.youtube.com/embed/yet-another-video-id', 
+            video: 'https://www.youtube.com/embed/cEPUZ8oxkCM', 
             itchioLink: 'https://twoweeksathome.itch.io/catenae'
         },
         {

@@ -1,22 +1,31 @@
 import React from 'react';
 import ProfilePic from '../assets/icons/ProfileWA.jpg'; 
-import unityLogo from '../assets/icons/unity.png'; // Adjust the path as necessary
-import unrealLogo from '../assets/icons/unreal.png'; // Adjust the path as necessary
-import csharpLogo from '../assets/icons/csharp.png'; // Adjust the path as necessary
-import cppLogo from '../assets/icons/cpp.png'; // Adjust the path as necessary
-import githubLogo from '../assets/icons/github.png'; // Adjust the path as necessary
-import maxLogo from '../assets/icons/3dsmax.png'; // Adjust the path as necessary
-import htmlLogo from '../assets/icons/html.png'; // Adjust the path as necessary
-import cssLogo from '../assets/icons/css.png'; // Adjust the path as necessary
+import unityLogo from '../assets/icons/unity.png'; 
+import unrealLogo from '../assets/icons/unreal.png'; 
+import csharpLogo from '../assets/icons/csharp.png'; 
+import cppLogo from '../assets/icons/cpp.png'; 
+import githubLogo from '../assets/icons/github.png'; 
+import maxLogo from '../assets/icons/3dsmax.png'; 
+import htmlLogo from '../assets/icons/html.png'; 
+import cssLogo from '../assets/icons/css.png'; 
 import jsLogo from '../assets/icons/javascript.png';
+import linkedinLogo from '../assets/icons/linkedin.png'; 
 
 const About = () => {
     return (
         <div className="about">
             <div className="hero">
-                <p>
-                    Gameplay programmer with a solid foundation in programming and game design. This, along with my understanding of game engines and software, allows me to prototype ideas and work from a multidisciplinary standpoint.
-                </p>
+                <div className="hero-text">
+                    <p>
+                        Gameplay programmer with a solid foundation in programming and game design. This, along with my understanding of game engines and software, allows me to prototype ideas and work from a multidisciplinary standpoint.
+                    </p>
+                    <div className="contact-info">
+                        <p>merinoxevi@gmail.com</p>
+                        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+                            <img src={linkedinLogo} alt="LinkedIn" className="linkedin-icon" title="LinkedIn" />
+                        </a>
+                    </div>
+                </div>
                 <img src={ProfilePic} alt="Profile" className="profile-pic" />
             </div>
             <div className="skill-nav">
