@@ -2,17 +2,19 @@
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://xaviermerino01.github.io/Portfolio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "portfolio",
     "game programmer",
     "projects"
   ],
-  "author": "Your Name",
+  "author": "Xavier Merino Seuma",
   "license": "ISC",
   "description": "A personal portfolio website for showcasing game programming projects.",
   "devDependencies": {
@@ -23,6 +25,7 @@
     "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
     "html-webpack-plugin": "^5.6.3",
     "style-loader": "^4.0.0",
     "webpack": "^5.97.1",
