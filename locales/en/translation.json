@@ -62,6 +62,13 @@
     "Designed challenging button patterns.",
     "Itch.io playable site"
   ],
+  "projects.teslacoil.briefDescription": "Developed a Tower Defense prototype in Unreal Engine using C++ to practice and improve my skills in writing clean, efficient, and scalable code.",
+  "projects.teslacoil.bulletPoints": [
+    "Implemented a grid-based tower placement system using C++ and Unreal Engine's Actor/Component architecture.",
+    "Created a wave management system with configurable enemy spawn rates, types, and difficulty scaling.",
+    "Programmed a shop with unlockable items for purchasing towers and upgrades and a currency system to manage player resources.",
+    "Exposed core systems made in C++ to Blueprints."
+  ],
   "projects.mixTriviaGame.briefDescription": "Personal project, with the objective to practice my game development skills. Created over the course of two weeks.",
   "projects.mixTriviaGame.bulletPoints": [
     "Created a cohesive and efficient codebase to support the implementation of various gameplay features.",
