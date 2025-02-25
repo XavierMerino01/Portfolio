@@ -42,9 +42,9 @@ const Projects = () => {
             itchioLink: 'https://twoweeksathome.itch.io/catenae'
         },
         {
-            title: "Tesla Coil Prototype",
-            briefDescription: t('projects.catenae.briefDescription'),
-            bulletPoints: t('projects.catenae.bulletPoints', { returnObjects: true }),
+            title: "Tesla Coil",
+            briefDescription: t('projects.teslacoil.briefDescription'),
+            bulletPoints: t('projects.teslacoil.bulletPoints', { returnObjects: true }),
             engineLogo: unrealLogo,
             languageLogo: cppLogo,
             video: 'https://www.youtube.com/embed/lQN2_gezUvE', 
