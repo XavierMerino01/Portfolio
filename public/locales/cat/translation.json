@@ -62,6 +62,13 @@
     "Disseny de patrons de botons.",
     "Build jugable a Itch.io"
   ],
+  "projects.teslacoil.briefDescription": "Desenvolupament d'un prototip de Tower Defense a Unreal Engine utilitzant C++ per practicar i millorar les meves habilitats creant codi net, eficient i escalable.",
+  "projects.teslacoil.bulletPoints": [
+    "Implementació d'una quadrícules de col·locació d'objectes utilitzant C++ i l'arquitectura Actor/Component d'Unreal Engine.",
+    "Creació d'un sistema de gestió d'onades d'enemics podent-ne configurar el tipus i la dificultat.",
+    "Programació d'una botiga amb articles desbloquejables per comprar torres i millores, a part d'un sistema de divises per gestionar els recursos del jugador.",
+    "Exposició de sistemes bàsics fets en C++ a Blueprints."
+  ],
   "projects.mixTriviaGame.briefDescription": "Projecte personal, amb l'objectiu de practicar les meves habilitats de disseny i programació. Creat en el transcurs de dues setmanes.",
   "projects.mixTriviaGame.bulletPoints": [
     "Creació d'una base de codi cohesiva i eficient per donar suport a la implementació de diverses característiques del joc.",
